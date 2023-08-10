@@ -3,7 +3,7 @@ import {
   BadRequestException,
   PipeTransform,
 } from '@nestjs/common';
-import { BoardStatus } from '../boards.model';
+import { BoardStatus } from '../boards.status.enum';
 import any = jasmine.any;
 
 export class BoardStatusValidationPipe implements PipeTransform {
